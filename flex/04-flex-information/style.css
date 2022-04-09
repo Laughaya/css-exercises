@@ -12,12 +12,13 @@ img {
   font-size: 36px;
   font-weight: 900;
   text-align: center;
+  margin-bottom: 32px;
 }
 
 .info {
   display: flex;
-  justify-content: space-around;
-  margin: 20px 30px;
+  justify-content: center;
+  gap: 52px;
 }
 
 .plant {
@@ -25,15 +26,7 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 20px;
-  row-gap: 10px;
-}
-
-.text {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  align-items: flex-end;
+  max-width: 200px;
 }
 
 /* do not edit this footer */
